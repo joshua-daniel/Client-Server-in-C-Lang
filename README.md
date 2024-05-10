@@ -7,10 +7,12 @@ This is project is done in Debian Linux, so some system calls may not work in ot
 $ gcc -o server server.c
 $ ./server <port-number>
 
-$ gcc -o mirror1 mirror1.c         -- in different terminal
+-- in different terminal
+$ gcc -o mirror1 mirror1.c         
 $./mirror1 9191 
 
-$ gcc -o mirror2 mirror2.c         -- in different terminal
+-- in different terminal
+$ gcc -o mirror2 mirror2.c         
 $./mirror2 9192
 
 
